@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicle Information</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="dashboard">
+    <div class="sidebar">
+      <h2>Pravin Transport</h2>
+      <button class="btn" onclick="showContent('home')">Home</button>
+      <button class="btn" onclick="showContent('profile')">New Bilty</button>
+      <button class="btn" onclick="showContent('settings')">All Bilty</button>
+      <button class="btn" onclick="showContent('analytics')">Consignor</button>
+      <button class="btn" onclick="showContent('messages')">Consignee</button>
+      <button class="btn" onclick="showContent('addVehicle')">Add Vehicle</button>
+      <button class="btn" onclick="showContent('allVehicles')">All Vehicles</button>
+      <button class="btn" onclick="showContent('Logout')">Logout</button>
+    </div>
+    <div class="content" id="content-area">
+      <h1>Welcome to the Dashboard</h1>
+      <p>Select a menu option from the sidebar to get started.</p>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
